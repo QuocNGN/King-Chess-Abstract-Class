@@ -26,3 +26,15 @@ class Move {
     // Kiểm tra tính hợp lệ của nước đi
   }
 }
+class Board {
+  constructor(row, col) {
+    this.row = row;
+    this.col = col;
+  }
+  setupBoard() {
+    // Khởi tạo bàn cờ với các quân cờ
+  }
+  movePiece() {
+    // Di chuyển quân cờ trên bàn cờ
+  }
+}
