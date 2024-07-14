@@ -38,3 +38,12 @@ class Board {
     // Di chuyển quân cờ trên bàn cờ
   }
 }
+class Player {
+  constructor(name, color) {
+    this.name = name;
+    this.color = color;
+  }
+  makeMove() {
+    // Thực hiện nước đi
+  }
+}
